@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <!-- Add navigation items here if needed -->
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="sqr1"></div>
+          <div class="sqr2"></div>
+
+          <div class="input-container">
+            <form class="search__form" id="search-form">
+              <svg width="24" height="24" class="input-geolocation">
+                <use href="./images/icons.svg#location"></use>
+              </svg>
+              <input
+                id="search-input"
+                value=""
+                name="city"
+                placeholder="Enter the city"
+              />
+              <button class="btn-favourite" type="button">
+                <svg width="24" height="24" class="favourite-icon">
+                  <use href="./images/icons.svg#star"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+    <h3 class="fiveday_header">Kyiv, UA</h3>
+          <div class="today-view">
+            <div class="weather-info-container">
+              <div class="weather-info">
+                <svg width="35" height="35" class="cloudy">
+                  <use href="./images/icons.svg#cloudy"></use>
+                </svg>
+              </div>
+
+              <div class="buttons-toggle">
+                <button class="today" type="button">TODAY</button>
+                <button
+                  id="btn-five-days"
+                  class="five-days button-active"
+                  type="button"
+                >
+                  5 DAYS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="five-day-view">
+            <div class="weather-card">
+              <div class="weather-forecast">
+                <div class="day">
+                  <p>Sunday</p>
+                  <p>09 Feb</p>
+                  <svg width="35" height="35">
+                    <use href="./images/icons.svg#cloudy"></use>
+                  </svg>
+                  <div class="temperature">
+                    <span>min: -2°</span>
+                    <svg width="24" height="24" class="divider">
+                      <use href="./images/icons.svg#Vector3"></use>
+                    </svg>
+                    <span>max: 1°</span>
+                    <br>
+                    <a href="#">more info</a>
+                  </div>
+                </div>
+                <div class="day">
+                  <p>Monday</p>
+                  <p>10 Feb</p>
+                  <svg width="35" height="35">
+                    <use href="./images/icons.svg#snow"></use>
+                  </svg>
+                  <div class="temperature">
+                    <span>min:</span>
+                    <span></span>
+                    <svg width="24" height="24" class="divider">
+                      <use href="./images/icons.svg#Vector3"></use>
+                    </svg>
+                    <span>max: 1°</span>
+                    <br>
+                    <a href="#">more info</a>
+                  </div>
+                </div>
+                <div class="day">
+                  <p>Tuesday</p>
+                  <p>11 Feb</p>
+                  <svg width="35" height="35">
+                    <use href="./images/icons.svg#weather"></use>
+                  </svg>
+                  <div class="temperature">
+                    <span>min: -2°</span>
+                    <svg width="24" height="24" class="divider">
+                      <use href="./images/icons.svg#Vector3"></use>
+                    </svg>
+                    <span>max: 1°</span>
+                    <br>
+                    <a href="#">more info</a>
+                  </div>
+                </div>
+                <div class="day">
+                  <p>Wednesday</p>
+                  <p>12 Feb</p>
+                  <svg width="35" height="35">
+                    <use href="./images/icons.svg#sun"></use>
+                  </svg>
+                  <div class="temperature">
+                    <span>min: -2°</span>
+                    <svg width="24" height="24" class="divider">
+                      <use href="./images/icons.svg#Vector3"></use>
+                    </svg>
+                    <span>max: 1°</span>
+                    <br>
+                    <a href="#">more info</a>
+                  </div>
+                </div>
+                <div class="day">
+                  <p>Thursday</p>
+                  <p>13 Feb</p>
+                  <svg width="35" height="35">
+                    <use href="./images/icons.svg#clouds-and-sun"></use>
+                  </svg>
+                  <div class="temperature">
+                    <span>min: -2°</span>
+                    <svg width="24" height="24" class="divider">
+                      <use href="./images/icons.svg#Vector3"></use>
+                    </svg>
+                    <span>max: 1°</span>
+                    <br>
+                    <a  href="#">more info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="show-chart">
+            <a href="#">Show Chart</a>
+            <button class="chart-arrow-btn">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#arrow_left"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+      </section>
+    </main>
+  </body>
+</html>
