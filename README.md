@@ -1,2 +1,1 @@
-# weather-app
- project
+# js-team-1-project
