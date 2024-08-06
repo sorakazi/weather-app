@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "js-team-1-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://cyan0511.github.io/js-team-1-project",
+  "homepage": "https://sorakazi.github.io/js-team-1-project",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /js-team-1-project/"
