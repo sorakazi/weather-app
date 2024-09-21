@@ -5,7 +5,7 @@
   "homepage": "https://sorakazi.github.io/weather-app/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /js-team-1-project/"
+    "build": "parcel build src/*.html --public-url /weather-app/"
   },
   "repository": {
     "type": "git",
