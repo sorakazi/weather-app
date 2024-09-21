@@ -8,10 +8,10 @@
     "build": "parcel build src/*.html --public-url /js-team-1-project/"
   },
   "keywords": [],
-  "author": "Cyrus Ducut <cyrus.ducut@gmail.com>",
+  "author": "Edmun Argana <edmundargana@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cyan0511/js-team-1-project/issues"
+    "url": "https://sorakazi.github.io/weather-app//issues"
   },
   "dependencies": {
     "aos": "^2.3.4",
